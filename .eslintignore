@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore dist directory
+dist/
+
+# Ignore coverage directory
+coverage/
+
+# Ignore .env file
+.env
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.js
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+commitlint.config.mjs

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "src/*"]
+    }
+  },
+  "extends": "../tsconfig.json",
+  "include": ["src", "postcss.config.cjs"]
+}
