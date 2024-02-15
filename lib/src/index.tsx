@@ -1,10 +1,9 @@
-import './styles/main.css';
+import './styles/global.css';
 
-export const Teste = () => {
-  return (
-    <div className="flex">
-      <span className="text-purple-600">Teste</span>
-      <span>Teste2</span>
-    </div>
-  );
-};
+import { ActionButton as Action } from './components/action-button';
+import { Timeline } from './components/timeline';
+import { TimelineEvent as Event } from './components/timeline-event';
+import { TimelineSubTitle as Subtitle } from './components/timeline-subtitle';
+import { TimelineTitle as Title } from './components/timeline-title';
+
+export { Action, Event, Subtitle, Timeline, Title };
