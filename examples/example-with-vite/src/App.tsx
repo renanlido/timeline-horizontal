@@ -1,36 +1,28 @@
-import { Teste } from '@reactkit/horizontal-timeline';
-import { useState } from 'react';
-import './App.css';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import {
+  Action,
+  Event,
+  Subtitle,
+  Timeline,
+  Title,
+} from '@reactuiutils/horizontal-timeline';
+import { FaBug, FaRegCalendarCheck } from 'react-icons/fa';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <Teste />
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount(count => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Timeline minEvents={6}>
+      <Event color="#87a2c7" icon={FaRegCalendarCheck}>
+        <Title>Agendado</Title>
+        <Subtitle>26/03/2019 09:51</Subtitle>
+      </Event>
+
+      <Event color="red" icon={FaBug}>
+        <Title>Erro</Title>
+        <Subtitle>26/03/2019 09:51</Subtitle>
+        <Action onClick={() => alert('clicou')}>Detalhes</Action>
+      </Event>
+
+      <Event color="darkGreen" icon={FaRegCalendarCheck} />
+    </Timeline>
   );
 }
 
