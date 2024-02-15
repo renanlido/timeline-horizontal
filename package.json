@@ -24,7 +24,7 @@
   "scripts": {
     "prepare": "husky",
     "examples-vite": "pnpm --filter @examples/with-vite",
-    "lib": "pnpm --filter @reactkit/horizontal-timeline"
+    "lib": "pnpm --filter @reactuiutils/horizontal-timeline"
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
@@ -33,6 +33,6 @@
     "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "@reactkit/horizontal-timeline": "^1.0.0"
+    "@reactuiutils/horizontal-timeline": "^1.0.0"
   }
 }
