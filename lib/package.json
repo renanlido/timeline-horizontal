@@ -45,15 +45,14 @@
     "horizontal-timeline",
     "reacuikit"
   ],
-  "repository": "https://github.com/renanlido/timeline-horizontal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanlido/timeline-horizontal.git"
+  },
   "homepage": "https://github.com/renanlido/timeline-horizontal",
   "bugs": {
     "url": "https://github.com/renanlido/timeline-horizontal/issues"
   },
-  "author": {
-    "name": "Renan Oliveira",
-    "email": "renanlido@yahoo.com.br",
-    "url": "https://www.renanlido.me"
-  },
+  "author": "Renan Oliveira <renanlido@yahoo.com.br> (https://www.renanlido.me)",
   "license": "MIT"
 }
