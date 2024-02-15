@@ -1,5 +1,4 @@
 {
-  "private": "false",
   "name": "@reactuiutils/horizontal-timeline",
   "version": "1.0.0",
   "description": "A horizontal timeline component for React",
