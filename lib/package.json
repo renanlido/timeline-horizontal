@@ -1,6 +1,5 @@
 {
   "name": "@reactuiutils/horizontal-timeline",
-  "private": "false",
   "version": "1.0.0",
   "description": "A horizontal timeline component for React",
   "main": "dist/index.js",
@@ -44,8 +43,16 @@
     "react",
     "timeline",
     "horizontal-timeline",
-    "reactkit"
+    "reacuikit"
   ],
-  "author": "",
-  "license": "ISC"
+  "homepage": "https://github.com/renanlido/timeline-horizontal",
+  "bugs": {
+    "url": "https://github.com/renanlido/timeline-horizontal/issues"
+  },
+  "author": {
+    "name": "Renan Oliveira",
+    "email": "renanlido@yahoo.com.br",
+    "url": "renanlido.me"
+  },
+  "license": "MIT"
 }
