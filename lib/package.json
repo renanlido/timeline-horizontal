@@ -1,5 +1,5 @@
 {
-  "name": "@reactkit/horizontal-timeline",
+  "name": "@reactuiutils/horizontal-timeline",
   "private": "false",
   "version": "1.0.0",
   "description": "A horizontal timeline component for React",
@@ -9,8 +9,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --clean --dts --external react --onSuccess \"node ./add-import-css.cjs\"",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch --onSuccess \"node ./add-import-css.cjs\""
+    "build": "tsup src/index.tsx --format esm --clean --dts --external react --onSuccess \"node ./add-import-css.cjs\"",
+    "dev": "tsup src/index.tsx --format esm --dts --external react --watch --onSuccess \"node ./add-import-css.cjs\""
   },
   "exports": {
     ".": {
@@ -24,8 +24,10 @@
     }
   },
   "dependencies": {
+    "clsx": "^2.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
