@@ -45,6 +45,7 @@
     "horizontal-timeline",
     "reacuikit"
   ],
+  "repository": "https://github.com/renanlido/timeline-horizontal",
   "homepage": "https://github.com/renanlido/timeline-horizontal",
   "bugs": {
     "url": "https://github.com/renanlido/timeline-horizontal/issues"
