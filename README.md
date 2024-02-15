@@ -60,7 +60,7 @@ export const MyTimeline = () => {
 
 ## Preview
 
-![Horizontal Timeline]()
+![preview image](https://raw.githubusercontent.com/renanlido/timeline-horizontal/main/public/img/image.png)
 
 ## Props
 
@@ -70,7 +70,7 @@ The `Timeline` component is used to render a horizontal timeline.
 
 #### Props
 
-- `minEvents` (number): The minimum number of events to display on the timeline.
+- `minEvents` (number): The minimum number of events to display on the timeline. If the rendered events are less than this number, the timeline will be render fallbacks instead to complete the total number.
 
 ### Event
 
