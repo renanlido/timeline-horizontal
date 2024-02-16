@@ -1,15 +1,21 @@
 {
   "name": "@reactuiutils/horizontal-timeline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A horizontal timeline component for React",
   "main": "dist/index.js",
-  "style": "dist/index.css",
+  "style": "style/horizontal-timeline.css",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "files": [
+    "dist",
+    "styles",
+    "*.css"
+  ],
   "scripts": {
-    "build": "tsup src/index.tsx --format esm --clean --dts --external react --onSuccess \"node ./add-import-css.cjs\"",
-    "dev": "tsup src/index.tsx --format esm --dts --external react --watch --onSuccess \"node ./add-import-css.cjs\""
+    "buildcss": "npx tailwindcss -o dist/styles/timeline.css --minify",
+    "build": "tsup src/index.tsx --format esm --clean --dts --external react --onSuccess \"pnpm buildcss\"",
+    "dev": "tsup src/index.tsx --format esm --dts --external react --watch  --onSuccess \"pnpm buildcss\""
   },
   "exports": {
     ".": {
@@ -17,9 +23,9 @@
       "types": "./dist/index.d.ts",
       "require": "./dist/index.js"
     },
-    "./index.css": {
-      "import": "./dist/index.css",
-      "require": "./dist/index.css"
+    "./timeline.css": {
+      "import": "./dist/styles/timeline.css",
+      "require": "./dist/styles/timeline.css"
     }
   },
   "dependencies": {
