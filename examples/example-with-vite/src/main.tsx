@@ -1,3 +1,4 @@
+import '@reactuiutils/horizontal-timeline/timeline.css';
 import './styles/global.css';
 
 import React from 'react';
