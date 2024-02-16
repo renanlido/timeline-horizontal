@@ -14,7 +14,7 @@ export const ActionButton = ({
   return (
     <button
       className={cn(
-        'flex px-6 mt-2 text-white py-1 hover:bg-blue-600 transition-colors cursor-pointer bg-blue-500 rounded-lg',
+        'flex px-6 mt-2 text-white py-1 hover:bg-blue-600 transition-colors cursor-pointer bg-blue-500 rounded-lg font-roboto',
         className,
       )}
       {...rest}
