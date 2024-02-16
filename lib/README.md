@@ -25,6 +25,16 @@ pnpm i @reactuiutils/horizontal-timeline
 
 ## Usage
 
+### CSS Import
+
+1.Import the `timeline.css` file into the main file or corresponding file in your project
+
+```jsx
+import '@reactuiutils/horizontal-timeline/timeline.css';
+```
+
+2.Use the components
+
 ```jsx
 import {
   Action,
