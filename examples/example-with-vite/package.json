@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reactuiutils/horizontal-timeline": "workspace:^",
+    "@reactuiutils/horizontal-timeline": "^1.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1"
