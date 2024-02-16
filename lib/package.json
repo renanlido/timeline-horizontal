@@ -3,7 +3,6 @@
   "version": "1.0.2",
   "description": "A horizontal timeline component for React",
   "main": "dist/index.js",
-  "style": "style/horizontal-timeline.css",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
