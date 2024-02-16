@@ -75,7 +75,7 @@ importers:
   examples/example-with-vite:
     dependencies:
       '@reactuiutils/horizontal-timeline':
-        specifier: workspace:^
+        specifier: ^1.0.2
         version: link:../../lib
       react:
         specifier: ^18.2.0
