@@ -31,8 +31,5 @@
       "eslint --fix"
     ],
     "**/*": "prettier --write --ignore-unknown"
-  },
-  "dependencies": {
-    "@reactuiutils/horizontal-timeline": "^1.0.0"
   }
 }

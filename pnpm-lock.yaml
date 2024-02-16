@@ -6,10 +6,6 @@ settings:
 
 importers:
   .:
-    dependencies:
-      '@reactuiutils/horizontal-timeline':
-        specifier: ^1.0.0
-        version: link:lib
     devDependencies:
       '@commitlint/cli':
         specifier: ^18.6.0
