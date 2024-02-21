@@ -1,5 +1,12 @@
 {
-  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*", "src/*"]
+    },
+    "jsx": "react-jsx"
+  },
+  "extends": ["../../tsconfig.json"],
   "include": ["src", "tailwind.config.js"],
   "exclude": [
     "node_modules",
