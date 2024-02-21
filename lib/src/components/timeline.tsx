@@ -27,7 +27,7 @@ export const Timeline = ({
     : [];
 
   return (
-    <div className={cn('flex overflow-auto')} {...rest}>
+    <div className={cn('flex overflow-x-auto overflow-y-hidden')} {...rest}>
       {childrenWithProps}
 
       {minEvents > 0 &&
