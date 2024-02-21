@@ -1,6 +1,6 @@
 {
   "name": "@reactuiutils/horizontal-timeline",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A horizontal timeline component for React",
   "main": "dist/index.js",
   "module": "dist/index.js",
