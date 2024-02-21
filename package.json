@@ -3,7 +3,7 @@
     "prepare": "husky",
     "examples-vite": "pnpm --filter @examples/with-vite",
     "lib": "pnpm --filter @reactuiutils/horizontal-timeline",
-    "run:all": "concurrently --kill-others \"pnpm run lib\" \"pnpm run examples-vite\""
+    "run:all": "concurrently --kill-others \"pnpm lib dev\" \"pnpm examples-vite dev\""
   },
   "lint-staged": {
     "**/*.{js,ts,tsx}": [
